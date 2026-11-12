@@ -5,6 +5,7 @@
  */
 package paquete01;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 /**
@@ -16,7 +17,9 @@ public class Ejemplo04 {
     public static void main(String[] args) {
         //
         Scanner entrada = new Scanner(System.in);
+        entrada.useLocale(Locale.US);
         int opcion;
+        
         double radianes;
         double resultado;
         
@@ -25,7 +28,7 @@ public class Ejemplo04 {
                 + "1 seno\n"
                 + "2 coseno\n"
                 + "3 tangente");
-        opcion = entrada.nextInt(); // 4
+        opcion = entrada.nextInt(); // 2
         
         System.out.println("Ingrese el valor en radianes");
         radianes = entrada.nextDouble(); // 20
