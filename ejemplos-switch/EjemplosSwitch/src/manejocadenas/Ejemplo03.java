@@ -45,3 +45,9 @@ public class Ejemplo03 {
         
     }
 }
+
+/*
+el String.format sirve para crear y devolver una cadena de texto  
+con variables, números, fechas u otros datos de una forma 
+ordenada y legible, sin modificar la cadena original
+*/
